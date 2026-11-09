@@ -1,0 +1,16 @@
+# data and generated artefacts (hundreds of MB, and the data is not redistributable)
+data/
+work/
+output/
+*.tsv
+*.tsv.gz
+*.gz
+*.parquet
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+# keep the small trained model and the measured results
+!models/matcher_lgbm.txt
+!reports/*.csv
+!reports/*.json
+!models/matcher_lgbm_v2.txt

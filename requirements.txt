@@ -1,0 +1,5 @@
+# Versions used in the Kaggle run. Pin lightgbm to your installed version (pip show lightgbm).
+pandas==2.3.3
+numpy==2.0.2
+rapidfuzz==3.14.6
+lightgbm>=4.0
